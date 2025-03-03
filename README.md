@@ -45,3 +45,11 @@ A Link for a calculator code with switch case. [click here](https://www.programi
 * [Exercise4](exercise4.md)
 * [Exercise5](exercise5.md)
 * [Exercise6](exercise6.md)
+
+## author 
+
+Link to the GitHub profile page:\
+[https://github.com/lindakadyrova](https://github.com/lindakadyrova)
+
+Link to the university:\
+[https://www.fh-joanneum.at/](https://www.fh-joanneum.at/)
