@@ -39,8 +39,8 @@ methods to solve roots, squares or other mathematical calculations could be adde
 A Link for a calculator code with switch case. [click here](https://www.programiz.com/java-programming/examples/calculator-switch-case)
 
 ## internal links
-* [Exercise1](exercise1.md)
-* [Exercise2](exercise2.md)
+* [Exercise1](exercise1.md) Getting to know the syntax of markdown (Links, Lists, headlines, Blocks)
+* [Exercise2](exercise2.md) Getting to know basic git commands
 * [Exercise3](exercise3.md)
 * [Exercise4](exercise4.md)
 * [Exercise5](exercise5.md)
