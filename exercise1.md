@@ -1,4 +1,4 @@
-![java logo](resources\images\ex1_1.png)
+![java logo](resources/images/ex1_1.png)
 
 [java logo](https://icon-icons.com/icon/java-horizontal-logo/167858)
 
