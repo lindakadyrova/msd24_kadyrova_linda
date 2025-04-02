@@ -86,4 +86,21 @@ public class CalculatorTest {
     assertEquals(0.0, result);
   }
 
+  @Test
+  void testFactorialPositiveNumbers() {
+   Calculator calc = new Calculator();
+   assertEquals(2, calc.factorial(2));
+  }
+  @Test
+  void testFactorialNegativeNumbers() {
+   Calculator calc = new Calculator();
+   assertEquals(0, calc.factorial(-5));
+  }
+
+  @Test
+  void testFactorialZero() {
+   Calculator calc = new Calculator();
+   assertEquals(1, calc.factorial(0));
+  }
+
 }

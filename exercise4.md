@@ -29,3 +29,5 @@ The second test checks the multiply method when one number is negative (-5) and 
 The third test checks the multiply method when one of the numbers is zero, ensuring that multiplying any number by 0 results in 0.0.
 
 ![ex4_1](resources/images/ex4_1.png)
+
+![ex4_2](resources/images/ex4_2.png)
