@@ -43,7 +43,7 @@ A Link for a calculator code with switch case. [click here](https://www.programi
 * [Exercise2](exercise2.md) Getting to know basic git commands
 * [Exercise3](exercise3.md) Getting to know Maven
 * [Exercise4](exercise4.md) Getting to know how to directly test with Maven
-* [Exercise5](exercise5.md)
+* [Exercise5](exercise5.md) Getting to know branches and Log4j
 * [Exercise6](exercise6.md)
 
 ## Templates
