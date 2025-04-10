@@ -8,28 +8,28 @@ public class Calculator {
 
   public double add(double number1, double number2) {
     double result = number1 + number2;
-    logger.info("add called with: number1=" + number1 + ", number2=" + number2 + ", result=" + result);
+    logger.debug("add called with: number1=" + number1 + ", number2=" + number2 + ", result=" + result);
     return result;
   }
 
   public double minus(double number1, double number2) {
     double result = number1 - number2;
-    logger.info("minus called with: number1=" + number1 + ", number2=" + number2 + ", result=" + result);
+    logger.debug("minus called with: number1=" + number1 + ", number2=" + number2 + ", result=" + result);
     return result;
   }
 
   public double divide(double a, double b) {
-    logger.info("divide called with: a=" + a + ", b=" + b);
+    logger.debug("divide called with: a=" + a + ", b=" + b);
     if (b == 0) {
       logger.error("Division durch 0!");
-      throw new IllegalArgumentException("Divisor darf nicht 0 sein.");
+      throw new ArithmeticException("division by 0 isn't allowed");
     }
     return a / b;
   }
 
   public double multiply(double number1, double number2) {
     double result = number1 * number2;
-    logger.info("multiply called with: number1=" + number1 + ", number2=" + number2 + ", result=" + result);
+    logger.debug("multiply called with: number1=" + number1 + ", number2=" + number2 + ", result=" + result);
     return result;
   }
 
@@ -42,7 +42,7 @@ public class Calculator {
     for (int i = 2; i <= n; i++) {
       result *= i;
     }
-    logger.info("factorial called with: n=" + n + ", result=" + result);
+    logger.debug("factorial called with: n=" + n + ", result=" + result);
     return result;
   }
 
