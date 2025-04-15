@@ -96,10 +96,16 @@ public class CalculatorTest {
   }
 
   @Test
-  void testFactorialNegativeNumbers() {
-    Calculator calc = new Calculator();
-    assertEquals(0, calc.factorial(-5));
+  void testFactorialNegative() {
+      Calculator calc = new Calculator();
+      // Check that IllegalArgumentException is thrown for negative input
+      IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
+          calc.factorial(-1);
+      });
+      assertEquals("n cannot be a negative number", thrown.getMessage());
   }
+
+
 
   @Test
   void testFactorialZero() {

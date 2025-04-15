@@ -44,7 +44,9 @@ A Link for a calculator code with switch case. [click here](https://www.programi
 * [Exercise3](exercise3.md) Getting to know Maven
 * [Exercise4](exercise4.md) Getting to know how to directly test with Maven
 * [Exercise5](exercise5.md) Getting to know branches and Log4j
-* [Exercise6](exercise6.md)
+* [Exercise6](exercise6.md) Getting to learn how to work with Javadoc and Maven Site
+
+
 
 ## Templates
 [log4j2.xml.template](src/main/resources/log4j2.xml.template) 
